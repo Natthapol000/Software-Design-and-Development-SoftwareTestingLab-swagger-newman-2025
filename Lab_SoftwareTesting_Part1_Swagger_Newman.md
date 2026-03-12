@@ -524,8 +524,13 @@ Token (15 ตัวแรก)     : ______________________________...
 ```
 
 ### 📸 แทรกภาพหน้าจอ Swagger UI — POST /api/login Response ที่นี่
+
 ![Swagger UI-POST /api/login response](images/swagger-UI-Response.png)
 ---
+<img width="1851" height="786" alt="Capture2" src="https://github.com/user-attachments/assets/cdceface-1d2a-4bef-ba41-e5d90da37869" />
+<img width="1920" height="975" alt="Capture" src="https://github.com/user-attachments/assets/cf3ecc7a-6647-458c-92b9-b3e3108ed040" />
+<img width="1757" height="863" alt="Capture1" src="https://github.com/user-attachments/assets/b73b3080-a209-4277-a2a0-c3b371e5ab10" />
+
 
 **ขั้นที่ 2 — ตั้งค่า Authorization**
 
