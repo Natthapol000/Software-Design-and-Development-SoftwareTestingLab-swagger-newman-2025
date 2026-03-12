@@ -688,9 +688,12 @@ app.get('/api/health', (req, res) => {
 Login ใน Swagger UI → Authorize → รอ 6 วินาที → ลอง GET /api/bookings:
 
 ```
-Response Code หลัง token หมดอายุ : ______
-Error message                    : ______________________________
-ข้อแตกต่างระหว่าง 401 กับ 403   : ______________________________
+Response Code หลัง token หมดอายุ : 403
+__
+Error message                    : {
+  "error": "Token ไม่ถูกต้องหรือหมดอายุ"
+}
+ข้อแตกต่างระหว่าง 401 กับ 403   : 401 คือไม่ได้ส่งยังไม่ได้ Login  403 ส่ง Tokenมาแล้วแต่ Token หมดอายุ
 ```
 
 > แก้กลับเป็น `'1h'` ก่อนทำส่วนที่ 2
