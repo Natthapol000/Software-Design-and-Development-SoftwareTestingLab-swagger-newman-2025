@@ -669,6 +669,8 @@ app.get('/api/health', (req, res) => {
 ```
 
 📸 แทรกภาพหน้าจอ Swagger UI ที่แสดง /api/health endpoint และ Response จริง:
+<img width="1596" height="735" alt="image" src="https://github.com/user-attachments/assets/e93e0ddc-4903-458d-a997-a974234b9dc7" />
+
 ![Swagger UI-health check](images/swagger-UI-Response.png)
 > ___
 
