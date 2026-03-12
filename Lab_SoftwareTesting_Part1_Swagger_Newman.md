@@ -544,13 +544,20 @@ Token (15 ตัวแรก)     : ______________________________...
 
 | Endpoint | Method | Auth | Expected Code | Actual Code |
 |----------|--------|:----:|:------------:|:-----------:|
-| `/api/bookings` | POST | ❌ | 201 | |
-| `/api/bookings` | GET | ✅ | 200 | |
-| `/api/bookings/1` | GET | ✅ | 200 หรือ 404 | |
-| `/api/bookings/1` | PUT | ✅ | 200 หรือ 404 | |
-| `/api/bookings/1` | DELETE | ✅ | 200 หรือ 404 | |
+| `/api/bookings` | POST | ❌ | 201 | 201|
+| `/api/bookings` | GET | ✅ | 200 |200 |
+| `/api/bookings/1` | GET | ✅ | 200 หรือ 404 |200 |
+| `/api/bookings/1` | PUT | ✅ | 200 หรือ 404 |200 |
+| `/api/bookings/1` | DELETE | ✅ | 200 หรือ 404 |200|
 
 ### 📸 แทรกภาพหน้าจอ Swagger UI — GET /api/bookings Response ที่นี่
+<img width="1435" height="577" alt="image" src="https://github.com/user-attachments/assets/6f370573-6e00-4524-ac12-c68016e2693e" />
+<img width="1409" height="523" alt="image" src="https://github.com/user-attachments/assets/3d127d20-891e-4844-9f63-96f49fed779a" />
+<img width="1423" height="528" alt="image" src="https://github.com/user-attachments/assets/e7f0e640-47b8-43db-b990-6c3de390194b" />
+<img width="1409" height="614" alt="image" src="https://github.com/user-attachments/assets/8949778e-9f29-4291-980d-a72e7756756b" />
+<img width="1481" height="448" alt="image" src="https://github.com/user-attachments/assets/3e9cddbe-3481-4d1a-9111-fd68b03bde43" />
+
+
 ![Swagger UI-POST /api/bookings response]('images/swagger-UI-Response.png')
 ---
 
@@ -559,8 +566,10 @@ Token (15 ตัวแรก)     : ______________________________...
 กดปุ่ม **Authorize** → **Logout** → **Close** แล้วลอง GET /api/bookings ใหม่:
 
 ```
-Response Code เมื่อไม่มี Token : ______
-Error message ที่ได้รับ        : ______________________________
+Response Code เมื่อไม่มี Token : ___200___
+Error message ที่ได้รับ        : {
+  "error": "กรุณาเข้าสู่ระบบก่อน"
+}
 ```
 
 ---
